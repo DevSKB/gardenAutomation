@@ -359,8 +359,17 @@ input_number:
     max: 60
     step: 5
     icon: mdi:cup-water
+    unit_of_measurement: Liter
+  nutrient_res_max_volume:
+    name: Nutrient Res Max Volume
+    min: 1
+    max: 100
+    step: 1
+    icon: mdi:car-coolant-level
     unit_of_measurement: Liters
+
 # A READ-OUT OF THE LAST 10 pH MEASUREMENTS TO HELP WHEN CALIBRATING
+
   reading10:
     name: reading10
     mode: box
